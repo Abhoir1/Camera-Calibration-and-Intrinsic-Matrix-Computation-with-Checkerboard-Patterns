@@ -40,3 +40,6 @@ Run the code in the terminal for these outputs:
 ## Additional Information
 
 - The source codes and the PDF report are provided within the zip file.
+
+<img src ="Results\images\image1.png" width=400/>
+
