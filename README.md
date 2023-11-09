@@ -1,30 +1,42 @@
-libraries required:
+# Camera Calibration and Intrinsic Matrix Computation README
 
-opencv 
-numpy
-scipy
-glob
+## Libraries Required
 
-PROBLEM 1
+Ensure the following libraries are installed before executing the code:
 
-Run the code in the terminal.
-Following outputs will be printed in the terminal
-1. Projection Matrix
-2. Intrinsic Matrix
-3. Rotation Matrix
-4. Translation Matrix
-5. Reprojection erros for each point
+- `opencv`: For computer vision tasks such as feature detection and image processing.
+- `numpy`: For numerical computations and matrix operations.
+- `scipy`: For scientific computing and technical computing.
+- `glob`: For file pathnames matching.
+
+## Problem 1: Projection and Transformation Matrices Calculation
+
+### Execution Instructions
+
+Run the code in the terminal to obtain the following outputs:
+
+1. Projection Matrix (P)
+2. Intrinsic Matrix (K)
+3. Rotation Matrix (R)
+4. Translation Matrix (T)
+5. Reprojection errors for each point
 6. Mean reprojection error
 
-PROBLEM 2
-Run the code in the terminal.
-Following outputs will be printed in the terminal
-1. All the 13 images will be displayed with the corners of the checkerboard shown (Press Q to go to the next image)
-2. Camera intrinsic matrix
-3. Reprojection error for individual image
+## Problem 2: Checkerboard Calibration
+
+### Execution Instructions
+
+Run the code in the terminal for these outputs:
+
+1. Display of all 13 images with the detected checkerboard corners (press 'Q' to advance to the next image)
+2. Camera intrinsic matrix (K)
+3. Reprojection error for each individual image
 4. Mean reprojection error
 
-The path for the glob function needs to be changed according to you system.
+### File Paths
 
+- Update the path for the `glob` function to match the directory structure on your system where the images are stored.
 
-The codes and the pdf report is given in the zip file.
+## Additional Information
+
+- The source codes and the PDF report are provided within the zip file.
